@@ -9,9 +9,11 @@ module.exports = {
       },
       height: {
         '50': '50vh',
+        '40': '40vh',
       },
       width: {
         '50rem': '50rem',
+        '40vw': '40vw',
         '35rem': '35rem',
       },
       borderRadius: {
