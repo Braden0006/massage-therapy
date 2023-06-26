@@ -9,12 +9,16 @@ module.exports = {
         'h2-green': '#35701F',
       },
       height: {
+        '75': '75vh',
         '50': '50vh',
         '40': '40vh',
+        '25vh': '25vh',
+        '20': '20vh',
       },
       width: {
         '50rem': '50rem',
         '42rem': '42rem',
+        '40rem': '40rem',
         '40vw': '40vw',
         '35rem': '35rem',
       },
@@ -23,6 +27,9 @@ module.exports = {
       },
       lineHeight: {
         '6rem': '6rem',
+      },
+      backgroundImage: {
+        'CTA-background': "url('./Images/Group 1.png')",
       }
     },
   },
