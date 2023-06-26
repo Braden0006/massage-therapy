@@ -556,18 +556,6 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -589,40 +577,32 @@ video {
   height: 50vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-screen {
   height: 100vh;
 }
 
-.h-\[40\] {
-  height: 40;
-}
-
-.h-\[40vh\] {
-  height: 40vh;
-}
-
-.h-full {
-  height: 100%;
+.w-60 {
+  width: 15rem;
 }
 
 .w-\[35rem\] {
   width: 35rem;
 }
 
-.w-\[50rem\] {
-  width: 50rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
 .w-\[40vw\] {
   width: 40vw;
 }
 
-.w-60 {
-  width: 15rem;
+.w-\[42rem\] {
+  width: 42rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
 }
 
 .transform {
@@ -637,20 +617,12 @@ video {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-col-reverse {
-  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -669,28 +641,20 @@ video {
   justify-content: space-between;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-40 {
-  gap: 10rem;
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-32 {
   gap: 8rem;
 }
 
-.gap-20 {
-  gap: 5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
-.gap-16 {
-  gap: 4rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-\[2rem\] {
@@ -717,8 +681,20 @@ video {
   padding-bottom: 1rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -735,19 +711,9 @@ video {
   line-height: 1;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .text-lg {
@@ -755,8 +721,31 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-\[6rem\] {
+  line-height: 6rem;
+}
+
+.text-\[\#35701F\] {
+  --tw-text-opacity: 1;
+  color: rgb(53 112 31 / var(--tw-text-opacity));
 }
 
 .text-white {
