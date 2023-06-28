@@ -7,7 +7,7 @@
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-[#DAE8D5]">
-    <header class="landing-page h-screen p-4 md:container md:auto" id="home">
+    <header class="landing-page h-screen p-4 md:container md:mx-auto" id="home">
       <nav
         class="navbar flex items-center py-4"
         style="justify-content: space-between"
@@ -2578,7 +2578,9 @@
           <li class="navbar_link">Contact</li>
         </ul>
       </nav>
-      <div class="landing-page-container flex flex-col items-center h-[50vh] justify-end gap-4">
+      <div
+        class="landing-page-container flex flex-col items-center h-[50vh] justify-end gap-4"
+      >
         <h1 class="landing-page-container_title text-3xl text-center">
           Heart and Soul Therapeutic Massage and Wellness
         </h1>
@@ -2586,23 +2588,22 @@
           Not just another massage therapy company, but a destination to your
           health and wellness
         </p>
-        <button class="landing-page-container_button bg-button text-white text-xs py-3 px-6 rounded-[2rem]">
+        <button
+          class="landing-page-container_button bg-button text-white text-xs py-3 px-6 rounded-[2rem]"
+        >
           Make an appointment
         </button>
       </div>
     </header>
-    <!--     
+
     <main>
-      <section
-        class="about h-screen mt-8 container mx-auto flex flex-col justify-center"
-        id="about"
-      >
-        <div class="flex flex-col gap-32">
-          <h1 class="text-5xl text-h2-green">About us</h1>
-          <div class="flex justify-between h-[50vh]">
-            <div class="w-[40vw] flex flex-col justify-center">
-              <h2 class="font-bold text-2xl pb-4">Patricia Diaz LMT</h2>
-              <p class="text-xl">
+      <section class="about flex md:container md:mx-auto p-4" id="about">
+        <div class="flex flex-col">
+          <h1 class="text-h2-green text-3xl pb-12">About us</h1>
+          <div class="flex flex-col justify-between">
+            <div class="flex flex-col">
+              <h2 class="font-bold pb-4 text-xl">Patricia Diaz LMT</h2>
+              <p class="pb-4">
                 Patricia was born and raised in Casper, Wyoming. Patricia along
                 with her daughter and husband moved to Arizona in 2021. While in
                 Arizona, Patricia attended Carrington College and obtained her
@@ -2614,19 +2615,20 @@
                 her home state
               </p>
             </div>
-            <img src="" alt="" class="outline w-[40vw] h-full" />
+            <img src="" alt="" class="outline h-50" />
           </div>
         </div>
       </section>
 
       <section
-        class="about-two h-screen mt-8 container mx-auto flex flex-col justify-center"
+        class="about-two mt-12 flex md:container md:mx-auto p-4"
+        id="about"
       >
-        <div class="flex flex-col gap-32">
-          <div class="flex flex-row-reverse justify-between h-[50vh]">
-            <div class="w-[40vw] flex flex-col justify-center">
-              <h2 class="font-bold text-2xl pb-4">Nancy Henderson</h2>
-              <p class="text-xl">
+        <div class="flex flex-col">
+          <div class="flex flex-col justify-between">
+            <div class="flex flex-col">
+              <h2 class="font-bold pb-4 text-xl">Nancy Henderson</h2>
+              <p class="pb-4">
                 Nancy was born in Casper raised and grew up in Worland where her
                 father owned two ranches, after high School Nancy Attended a
                 private tech school in Laramie earning her certificate in
@@ -2639,51 +2641,57 @@
                 bodies.
               </p>
             </div>
-            <img src="" alt="" class="outline w-[40vw] h-full" />
+            <img src="" alt="" class="outline h-50" />
           </div>
         </div>
       </section>
 
-      <section class="menu mt-8 container mx-auto flex flex-col gap-16">
-        <h1 class="text-5xl text-h2-green">Menu</h1>
-        <div class="menu_items flex gap-4 justify-between pb-12">
-          <div class="menu_items_item flex flex-col text-lg w-60">
-            <h3 class="pb-4">1 Hour Thereapeutic Massage Non-Member</h3>
+      <section class="menu mt-12 p-4 md:container md:mx-auto">
+        <h1 class="text-h2-green text-3xl pb-12">Menu</h1>
+        <div class="menu_items flex flex-col gap-4 pb-8 items-center">
+          <div class="menu_items_item w-70vw pb-4">
+            <h3 class="menu_items_item_heading pb-2">
+              1 Hour Thereapeutic Massage Non-Member
+            </h3>
             <span>$90.00</span>
           </div>
-          <div class="menu_items_item flex flex-col text-lg w-60">
-            <h3 class="pb-4">90 Minute Therapeutic Massage Non-Member</h3>
+          <div class="menu_items_item w-70vw pb-4">
+            <h3 class="menu_items_item_heading pb-2">
+              90 Minute Therapeutic Massage Non-Member
+            </h3>
             <span>$130.00</span>
           </div>
-          <div class="menu_items_item flex flex-col text-lg w-60">
-            <h3 class="pb-4">35 Minute Infrared Treatment Non-Member</h3>
+          <div class="menu_items_item w-70vw pb-4">
+            <h3 class="menu_items_item_heading pb-2">
+              35 Minute Infrared Treatment Non-Member
+            </h3>
             <span>$45.00</span>
           </div>
-          <div class="menu_items_item flex flex-col text-lg w-60">
-            <h3 class="pb-4">1 Hour Hot Stone Massage Non-Member</h3>
+          <div class="menu_items_item w-70vw pb-4">
+            <h3 class="menu_items_item_heading pb-2">
+              1 Hour Hot Stone Massage Non-Member
+            </h3>
             <span>$120.00</span>
           </div>
         </div>
         <div class="menu_add-ons">
-          <h2 class="menu_add-ons_title text-2xl font-bold pb-6">Add-ons:</h2>
-          <div
-            class="menu_add-ons_items grid grid-cols-3 grid-rows-2 gap-8 text-lg justify-between"
-          >
-            <span>One 60-minute massage</span>
-            <span>Infrared sauna session</span>
-            <span>Optional CBD add-on</span>
-            <span>Aromatherapy</span>
-            <span>Hot Stones</span>
+          <h2 class="menu_add-ons_title font-bold pb-4 text-xl">Add-ons:</h2>
+          <div class="menu_add-ons_items flex flex-col gap-4 items-center">
+            <div class="w-70vw">One 60-minute massage</div>
+            <div class="w-70vw">Infrared sauna session</div>
+            <div class="w-70vw">Optional CBD add-on</div>
+            <div class="w-70vw">Aromatherapy</div>
+            <div class="w-70vw">Hot Stones</div>
           </div>
-          <div class="flex justify-center pt-20">
-            <p class="font-bold text-center text-xl w-[42rem]">
+          <div class="pt-12">
+            <p class="font-bold text-center">
               The 60-minute massage session includes 10 minutes for dressing and
               undressing
             </p>
           </div>
         </div>
       </section>
-
+      <!-- 
       <section
         class="body-wrap h-screen mt-8 container mx-auto flex items-center"
       >
@@ -5326,9 +5334,7 @@
             Schedule
           </button>
         </div>
-      </footer>
+      </footer> -->
     </main>
-  </body>
-</html> -->
   </body>
 </html>
