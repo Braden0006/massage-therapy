@@ -32,6 +32,7 @@ module.exports = {
       },
       lineHeight: {
         '6rem': '6rem',
+        '3rem': '3rem',
       },
       backgroundImage: {
         'CTA-background': "url('./Images/Group 1.png')",
