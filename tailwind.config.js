@@ -22,7 +22,10 @@ module.exports = {
         '42rem': '42rem',
         '40rem': '40rem',
         '40vw': '40vw',
+        '38rem': '38rem',
         '35rem': '35rem',
+        '30rem': '30rem',
+        '25rem': '25rem',
       },
       borderRadius: {
         '2': '2rem',
@@ -32,6 +35,10 @@ module.exports = {
       },
       backgroundImage: {
         'CTA-background': "url('./Images/Group 1.png')",
+      },
+      fontSize: {
+        '22px': '1.375rem',
+        '42px': '2.625rem'
       }
     },
   },
