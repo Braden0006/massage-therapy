@@ -17,6 +17,7 @@ module.exports = {
         '20': '20vh',
       },
       width: {
+        '75vw': '75vw',
         '70vw': '70vw',
         '50rem': '50rem',
         '50vw': '50vw',
